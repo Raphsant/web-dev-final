@@ -1,0 +1,79 @@
+body {
+    background-image: url(/img/background.jpg);
+    padding: 2rem 4rem;
+    margin: 0;
+    color: #212527;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+  
+  .card {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.7);
+    border-radius: 1rem;
+    
+    
+    &__img {
+      display: block;
+      width: 100%;
+      border-top-right-radius: 1rem; 
+      border-top-left-radius: 1rem; 
+    }
+    
+    &__body {
+      background-color: #fff;
+      border-bottom-right-radius: 1rem; 
+      border-bottom-left-radius: 1rem; 
+      padding: 2rem;
+    }
+    
+    &__heading {
+      margin: 0 0 0 0;
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+    
+    &__date {
+      color: rgba(0, 0, 0, 0.7);
+      margin: 0 0 1rem 0;
+      font-size: 0.8rem;
+    }
+    
+    &__text {
+      margin: 0 0 2rem 0;
+    }
+  }
+  
+  .badge-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    
+    &__item {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+  
+  .badge {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    fill: #212527;
+    
+    &--love {
+      color: black;
+      fill: #e74c3c;
+    }
+    
+    &__icon {
+      width: 24px;
+      height: 24px;
+    }
+    
+    &__text {
+      margin: 0 0 0 0.5rem;
+    }
+  }

@@ -1,0 +1,99 @@
+body {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  padding: 2rem 4rem;
+  margin: 0;
+  color: #212527;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.card {
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.7);
+  border-radius: 1rem;
+  margin: 2vh;
+  width: max-content;
+  max-width: 400px;
+}
+
+.card__img {
+  display: block;
+  width: 100%;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.card__body {
+  background-color: #fff;
+  border-bottom-right-radius: 1rem; 
+    border-bottom-left-radius: 1rem; 
+  padding: 2rem;
+}
+
+.card__heading {
+  margin: 0 0 0 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.card__date {
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0 0 1rem 0;
+  font-size: 0.8rem;
+}
+
+.card__text {
+  margin: 0 0 2rem 0;
+}
+
+.badge-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.badge-list__item {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.badge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  fill: #212527;
+}
+
+.badge--love {
+  color: #e74c3c;
+  fill: #e74c3c;
+}
+
+.badge__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.badge__text {
+  margin: 0 0 0 0.5rem;
+}
+
+
+
+
+/*# sourceMappingURL=works.css.map */

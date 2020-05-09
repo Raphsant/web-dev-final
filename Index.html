@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/CSS/index.css">
-    <link rel="stylesheet" href="CSS/animate.css">
-    <script src="JS/jquery-3.5.0.js"></script>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/CSS/index.css">
+  <link rel="stylesheet" href="CSS/animate.css">
+  <script src="JS/jquery-3.5.0.js"></script>
+  
+
 </head>
+
 <body>
 
-    <div class="blurred-box">
-        <!--  you dont need the user-login-box html  -->
-        <!--  for demo purposes only and its shit  -->
-        <div class="user-login-box">
-          <span class="user-icon"></span>
-          <div class="user-name">By Raph Santana</div>
-          <div class="user-name"><h3 onclick="myFunction()">Enter the Website</h3></div>
-        </div>
-        
-      </div>
 
-      
-      
-      <script>
-        function myFunction() {
-          location.replace("/Pages/About.html")
-        }
-        </script>
+
+  
+  <!--Welcome screen-->
+  <div class="blurred-box">
+    <div class="user-login-box">
+      <span class="user-icon"></span>
+      <div class="user-name">By Raph Santana</div>
+      <div class="user-name">
+        <a href="Pages/main.html"><h3>Enter the Website</h3></a>
+      </div>
+    </div>
+  </div>
+
+  <!--Main menu screen-->
+  <div class="main-menu">
+   <div class="user-login-box">
+    <div class="list-menu">Back to main screen</div>
+      <div class="list-menu" onclick="showAbout()"> About me</div>
+      <div class="list-menu"> Projects</div>
+      <div class="list-menu"> Contact</div>
+    </div>
+  </div>
+
+  <div class="about">
+    <div class="inside">
+      <div>this is the about test</div>
+      <div> </div>
+      <div> </div>
+      <div> </div>
+
+      <div onclick="goBack()">Main menu</div> 
+    </div>
+   </div>
+  
+
+
+
+<script src="JS/menu.js"></script>
 </body>
 </html>
