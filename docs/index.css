@@ -19,7 +19,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
-  background-image: url(/img/background.jpg);
+  background-image: url(../img/background.jpg);
   width: 100%;
   height: 100%;
   font-family: Arial, Helvetica;
@@ -78,7 +78,7 @@ body {
   position: relative;
   border-radius: 50%;
   background-size: contain;
-  background-image: url(/img/download.png);
+  background-image: url(./img/download.png);
 
 }
 
