@@ -1,7 +1,9 @@
 $(document).ready(function(){
-
-        $("#dosbox").hide();
         $(".scrolldown").hide();
+        $(".white").addClass("animated fadeIn")
+        $(".transparent").addClass("animated fadeIn")
+        $("#dosbox").hide();
+        
         $(".transparent").click(function(){
             $("#dosbox").toggle();
             $(".scrolldown").toggle();

@@ -1,3 +1,3 @@
-function myFuncion(){
-    location.replace
-}
+$(document).ready(function(){
+    $(".white").addClass("animated fadeIn")
+})
